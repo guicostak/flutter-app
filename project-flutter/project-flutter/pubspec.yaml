@@ -1,0 +1,27 @@
+name: project
+description: "A new Flutter project."
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.13.6 # Biblioteca para consumo de APIs.
+  cupertino_icons: ^1.0.6 # Ícones estilo iOS.
+  shared_preferences: ^2.0.18 # Armazenamento local para salvar favoritos.
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0 # Lints para boas práticas no código.
+
+flutter:
+  uses-material-design: true # Ativa o suporte aos ícones do Material Design.
+
+  # Definição de assets:
+  assets:
+    - assets/cerveja.png # Adicione mais imagens aqui se necessário.
